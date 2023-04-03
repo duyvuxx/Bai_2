@@ -1,0 +1,29 @@
+.container {
+    width: 80%;
+    margin: 5rem auto;
+
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    line-height: 10rem;
+    margin-left: 2rem;
+
+    font-size: 4rem;
+    color: white;
+}
+
+.box:nth-child(1){
+    background-color: brown;
+}
+
+.box:nth-child(2){
+background-color: blueviolet;
+}
+
+.box:nth-child(3){
+background-color: darkcyan;
+}
